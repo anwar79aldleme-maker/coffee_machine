@@ -1,14 +1,21 @@
 {
   "name": "esp-dashboard",
   "version": "1.0.0",
+  "description": "لوحة تحكم لاستقبال رسائل من ESP8266/ESP32",
+  "author": "Your Name",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "next": "14.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "vercel": "^33.1.0"
   }
 }
