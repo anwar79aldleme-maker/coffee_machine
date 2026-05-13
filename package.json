@@ -1,7 +1,14 @@
 {
-  "name": "esp32-dashboard",
+  "name": "esp-dashboard",
   "version": "1.0.0",
   "scripts": {
-    "deploy": "vercel --prod"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   }
 }
