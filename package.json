@@ -1,0 +1,7 @@
+{
+  "name": "esp32-dashboard",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "vercel --prod"
+  }
+}
